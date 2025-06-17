@@ -12,3 +12,9 @@ jobs:
           fetch-depth: 0
       - name: awesome-lint
         run: ./.github/workflows/repo_linter.sh
+Afficher les catégories : [Homme, Femme, Enfant, Soldes]
+Afficher produits en vedette
+Si utilisateur est connecté :
+    Afficher "Bienvenue, [Nom]"
+Sinon :
+    Afficher "Connexion / Inscription"
