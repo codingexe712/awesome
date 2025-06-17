@@ -1,0 +1,31 @@
+Afficher les catégories : [Homme, Femme, Enfant, Soldes]
+Afficher produits en vedette
+Si utilisateur est connecté :
+    Afficher "Bienvenue, [Nom]"
+Sinon :
+    Afficher "Connexion / Inscription"
+Tant que l'utilisateur navigue :
+    Si l'utilisateur clique sur une catégorie :
+        Afficher les produits correspondants
+    Si l'utilisateur filtre par [taille, couleur, prix, marque] :
+        Mettre à jour l’affichage des produits
+Si l'utilisateur clique sur un produit :
+    Afficher : images, description, tailles disponibles, prix
+    Si l'utilisateur choisit une taille et clique sur "Ajouter au panier" :
+        Ajouter le produit au panier
+Afficher les articles dans le panier
+Afficher total (sous-total + livraison estimée)
+Options : Modifier quantités, Supprimer, Continuer les achats
+Si l'utilisateur clique sur "Passer la commande" :
+    Aller à l’étape Paiement
+Demander : adresse de livraison, méthode de paiement
+Si tout est rempli correctement :
+    Confirmer la commande
+    Générer numéro de commande
+    Envoyer confirmation par e-mail
+Sinon :
+    Afficher les erreurs
+Admin peut :
+    Ajouter / modifier / supprimer produits
+    Gérer les commandes
+    Gérer les retours / avis clients
